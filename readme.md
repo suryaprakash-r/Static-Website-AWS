@@ -4,7 +4,7 @@ sudo yum -y install httpd<br />
 sudo systemctl start httpd<br />
 sudo systemctl enable httpd<br />
 
-<b>Procedure to Host a Web Page in AWS </b>
+<b>Procedure to Host a Web Page in AWS </b><br />
 Step-1: Created an S3 Bucket<br />
 Step-2: Upload files like inded.html, style.css etc., After uploading files copy the S3 Bucket location.<br />
 Step-3: Hereafter, create a role in IAM for accessing S3 Bucket in Instance<br />
